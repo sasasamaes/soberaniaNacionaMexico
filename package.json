@@ -1,0 +1,46 @@
+{
+  "name": "soberania-mexico",
+  "version": "0.1.0",
+  "description": "Pagina Oficial de Agenda de la Soberania Nacional Estado de México",
+  "main": "server.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js",
+    "front": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasasamaes/soberaniaNacionaMexico.git"
+  },
+  "author": "@sasasamaes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasasamaes/soberaniaNacionaMexico/issues"
+  },
+  "homepage": "https://github.com/sasasamaes/soberaniaNacionaMexico#readme",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-alpha6",
+    "title": "^1.0.0",
+    "yo-yo": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-pug": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
